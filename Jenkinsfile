@@ -2,7 +2,7 @@ node {
 
     checkout scm
 
-    docker.withRegistry('https://registry.hub.docker.com', 'dockerHub') {
+    docker.withRegistry('https://hub.docker.com/repository/docker/kohopay/', 'dockerHub') {
 
         def customImage = docker.build("docker-testing/dockerwebapp")
 
