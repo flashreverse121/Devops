@@ -1,2 +1,0 @@
-# Devops
-Creating Devops Pipelin
