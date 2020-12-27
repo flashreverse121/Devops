@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("kohopay/docker-testing",".\jenkins\workspace\Jenkins-Pipeline\creatingImage\creatingImage\dockerfile")
+        app = docker.build("kohopay/docker-testing","\jenkins\workspace\Jenkins-Pipeline\creatingImage\creatingImage\dockerfile")
     }
 
     stage('Test image') {
