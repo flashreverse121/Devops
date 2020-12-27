@@ -6,9 +6,7 @@ pipeline {
   }
   agent any
   stages {
-    stage('Cloning Git') {
-         checkout scm
-    }
+    
     stage('Building image') {
       steps{
         script {
