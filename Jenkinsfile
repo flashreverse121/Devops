@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "kohopay/docker-test"
-    registryCredential = 'dockerhub'
+    registryCredential = 'dockerHub'
     dockerImage = ''
   }
   agent any
