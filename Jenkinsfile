@@ -7,9 +7,7 @@ pipeline {
   agent any
   stages {
     stage('Cloning Git') {
-      steps {
-        git 'https://github.com/flashreverse121/Devops.git'
-      }
+         checkout scm
     }
     stage('Building image') {
       steps{
